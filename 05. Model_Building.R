@@ -8,9 +8,9 @@ library(Metrics)      # For Calculating Root Mean Squared Error
 library(rpart)        # For Decision Tree Regression
 library(randomForest) # For Random Forest Regression
 
-setwd('E:\Data Science\01. Projects\02. Salary_Estimator_Fork_R')
+setwd('E:/Data Science/01. Projects/02. Salary_Estimator_Fork_R')
 
-df = read.csv('Data_Cleaned.csv')
+df = read.csv('03. Data_Cleaned.csv')
 
 ### Choose relevant columns 
 colnames(df)
